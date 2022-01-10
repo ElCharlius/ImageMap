@@ -12,10 +12,15 @@
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             color: white;
         }
+
         p {
             text-align: center;
             color: white;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .imatge {
+            text-align: center;
         }
     </style>
 </head>
@@ -23,6 +28,13 @@
 <body style="background-color: gray;">
     <h1>Aquesta es una pàgina per probar el mapa d'imatges.</h1>
     <p>Fe clic en les diferents parts de la imatge per accedir a diferentes pàgines.</p>
+    <div class="imatge"><img src="imagenes/workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+    </div>
+    <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" alt="Computer" a href="pagines/computer.html">
+        <area shape="rect" coords="290,172,333,250" alt="Phone" a href="pagines/phone.html">
+        <area shape="circle" coords="337,300,44" alt="Cup of coffee" a href="pagines/coffee.html">
+    </map>
 </body>
 
 </html>
