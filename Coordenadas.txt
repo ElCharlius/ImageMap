@@ -1,0 +1,9 @@
+Dimensiones 594.441
+
+Cuadrado
+80,231,268,418
+Ciruclo
+427,326,100
+Triangulo
+304,14,191,209,418,209
+
